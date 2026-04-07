@@ -1,4 +1,4 @@
-Advanced Network Vulnerability Scanner
+Network Scanner
 Identify active devices, open ports, OS versions, and potential vulnerabilities using Nmap and ARP scans. Choose between three scan levels for tailored depth and speed!
 
 Key Features:
@@ -9,30 +9,13 @@ Extreme: Exhaustive check including brute-force and custom scripts (-p- -A -sS -
 Scanning Flow: ARP scan → OS detection → open port analysis → vulnerability checks.
 Report Generation: Save results to text files with timestamps (e.g., scan_report_Advanced_2023-10-25.txt).
 
-# Usage Example:
-
-`sudo python3 network_scanner.py `
-
-[*] Network Scanner
-Scan Levels:
-1. Basic (Fast - OS, services, basic vulns)
-2. Advanced (TCP all ports + Top 1000 UDP + full scripts)
-3. Extreme (All TCP/UDP + brute-force + aggressive scans)
-[?] Select scan level (1-3): 2
-[?] Enter IP range/subnet (e.g., 192.168.1.0/24): 10.0.0.0/24
-[*] Scanning network 10.0.0.0/24 for live hosts...
-[+] Host 10.0.0.53 (MAC: 00:1B:7A:AA:BB:CC)
-    [VULN] ssh-hostkey: SSH host key fingerprint (RSA) found.
-    OS Detection:
-      - Ubuntu Linux 22.04 LTS (Accuracy: 95%)
-
-
 # Dependencies:
 
 Python 3+
 scapy (pip install scapy)
 python-nmap (pip install python-nmap)
 Nmap installed on the system (sudo apt install nmap).
+
 
 # Installation:
 
@@ -41,11 +24,12 @@ Nmap installed on the system (sudo apt install nmap).
 `cd advanced-scanner`
 
 # Ensure required modules are installed:
-pip install -r requirements.txt  # (optional: create a requirements file for scapy and python-nmap) 
+
+`pip install -r requirements.txt`
 
 # Run the Scanner:
 
-sudo python3 network_scanner.py  
+`sudo python3 network_scanner.py`
 
 # Troubleshooting Tips:
 
