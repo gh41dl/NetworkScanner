@@ -10,7 +10,7 @@ Scanning Flow: ARP scan → OS detection → open port analysis → vulnerabilit
 Report Generation: Save results to text files with timestamps (e.g., scan_report_Advanced_2023-10-25.txt).
 
 Usage Example:
-
+bash
 sudo python3 network_scanner.py 
 
 [*] Network Scanner
@@ -42,7 +42,7 @@ pip install -r requirements.txt  # (optional: create a requirements file for sca
 
 Run the Scanner:
 
-sudo python3 full_scanner.py  
+sudo python3 network_scanner.py  
 
 Troubleshooting Tips:
 Always run as root/sudo to access Nmap’s full capabilities.
