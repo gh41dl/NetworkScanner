@@ -11,10 +11,23 @@ Report Generation: Save results to text files with timestamps (e.g., scan_report
 
 # Dependencies:
 
-Python 3+
-scapy (pip install scapy)
-python-nmap (pip install python-nmap)
-Nmap installed on the system (sudo apt install nmap).
+Python 3+. We recommend to create a virtual environment to avoid breaking system packages
+
+`python -m venv path/to/venv/`
+
+`. ./venv/bin/activate`
+
+scapy
+
+`pip install scapy`
+
+python-nmap
+
+`pip install python-nmap`
+
+Nmap installed on the system 
+
+`sudo apt install nmap`
 
 
 # Installation:
