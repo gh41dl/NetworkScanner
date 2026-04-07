@@ -48,16 +48,6 @@ Troubleshooting Tips:
 Always run as root/sudo to access Nmap’s full capabilities.
 Test on networks where you have permission (compliance with legal/ethical guidelines is your responsibility).
 If no hosts are found, try using a smaller subnet range (e.g., 192.168.0.0/24).
+
 Contributing:
 Report bugs or suggest features here. PRs for improved error handling, new scripts, and performance optimizations are welcome!
-
-This README emphasizes the tool’s versatility while highlighting its user-friendly design. Feel free to customize further or add badges (e.g., code quality, CI status) if you’re publishing the repo publicly. 😊
-
-
-3 Citations
-
-
-26.09 tok/sec
-1238 tokens
-10.99s
-Stop reason: EOS Token Found
