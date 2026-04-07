@@ -37,7 +37,9 @@ Nmap installed on the system (sudo apt install nmap).
 # Installation:
 
 git clone https://github.com/your-repo/advanced-scanner.git
+
 cd advanced-scanner
+
 # Ensure required modules are installed:
 pip install -r requirements.txt  # (optional: create a requirements file for scapy and python-nmap) 
 
