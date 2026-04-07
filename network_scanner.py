@@ -5,7 +5,7 @@ import os
 
 def get_user_input():
     """Prompt the user to select scan level."""
-    print("\n[*] Advanced Network Vulnerability Scanner")
+    print("\n[*] Network Scanner")
     print("=" * 60)
     print("Scan Levels:")
     print("1. Basic (Fast - OS, services, basic vulns)")
