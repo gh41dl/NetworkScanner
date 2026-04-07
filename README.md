@@ -1,4 +1,4 @@
-Network Scanner
+# Network Scanner
 Identify active devices, open ports, OS versions, and potential vulnerabilities using Nmap and ARP scans. Choose between three scan levels for tailored depth and speed!
 
 Key Features:
@@ -9,7 +9,7 @@ Extreme: Exhaustive check including brute-force and custom scripts (-p- -A -sS -
 Scanning Flow: ARP scan → OS detection → open port analysis → vulnerability checks.
 Report Generation: Save results to text files with timestamps (e.g., scan_report_Advanced_2023-10-25.txt).
 
-# Dependencies:
+## Dependencies:
 
 Python 3+. We recommend to create a virtual environment to avoid breaking system packages
 
@@ -30,26 +30,26 @@ Nmap installed on the system
 `sudo apt install nmap`
 
 
-# Installation:
+## Installation:
 
 `git clone https://github.com/your-repo/advanced-scanner.git`
 
 `cd advanced-scanner`
 
-# Ensure required modules are installed:
+## Ensure required modules are installed:
 
 `pip install -r requirements.txt`
 
-# Run the Scanner:
+## Run the Scanner:
 
 `sudo python3 network_scanner.py`
 
-# Troubleshooting Tips:
+## Troubleshooting Tips:
 
 Always run as root/sudo to access Nmap’s full capabilities.
 Test on networks where you have permission (compliance with legal/ethical guidelines is your responsibility).
 If no hosts are found, try using a smaller subnet range (e.g., 192.168.0.0/24).
 
-# Contributing:
+## Contributing:
 
 Report bugs or suggest features here. PRs for improved error handling, new scripts, and performance optimizations are welcome!
