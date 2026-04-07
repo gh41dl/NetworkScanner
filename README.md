@@ -9,8 +9,8 @@ Extreme: Exhaustive check including brute-force and custom scripts (-p- -A -sS -
 Scanning Flow: ARP scan → OS detection → open port analysis → vulnerability checks.
 Report Generation: Save results to text files with timestamps (e.g., scan_report_Advanced_2023-10-25.txt).
 
-Usage Example:
-bash
+# Usage Example:
+
 sudo python3 network_scanner.py 
 
 [*] Network Scanner
@@ -27,27 +27,30 @@ Scan Levels:
       - Ubuntu Linux 22.04 LTS (Accuracy: 95%)
 
 
-Dependencies:
+# Dependencies:
+
 Python 3+
 scapy (pip install scapy)
 python-nmap (pip install python-nmap)
 Nmap installed on the system (sudo apt install nmap).
 
-Installation:
+# Installation:
 
 git clone https://github.com/your-repo/advanced-scanner.git
 cd advanced-scanner
 # Ensure required modules are installed:
 pip install -r requirements.txt  # (optional: create a requirements file for scapy and python-nmap) 
 
-Run the Scanner:
+# Run the Scanner:
 
 sudo python3 network_scanner.py  
 
-Troubleshooting Tips:
+# Troubleshooting Tips:
+
 Always run as root/sudo to access Nmap’s full capabilities.
 Test on networks where you have permission (compliance with legal/ethical guidelines is your responsibility).
 If no hosts are found, try using a smaller subnet range (e.g., 192.168.0.0/24).
 
-Contributing:
+# Contributing:
+
 Report bugs or suggest features here. PRs for improved error handling, new scripts, and performance optimizations are welcome!
